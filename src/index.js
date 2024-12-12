@@ -1,11 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import Transposition from './Transposition';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+// import './index.css';
+import Home from './Home';
+import Rules from './Rules';
+import Leaderboard from './Leaderboard';
+import Game from './Game';
 
+const router = createBrowserRouter([
+  { path: '/', element: <Home /> },
+  { path: '/game/:level', element: <Game /> },
+  { path: '/Leaderboard/:level', element: <Leaderboard /> },
+  { path: '/Rules', element: <Rules /> }
+])
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Transposition />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );

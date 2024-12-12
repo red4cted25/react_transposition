@@ -21,7 +21,8 @@ code {
   justify-content: center;
   flex-direction: column;
   width: 50%;
-  background-color: rgb(56, 31, 0);
+  background-color: rgba(20, 13, 4, 0.9);
+  margin: auto;
 }
 
 /* Laptop Style */
