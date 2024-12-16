@@ -1,0 +1,13 @@
+{
+    "easy" : [
+        {
+            "word": "minecraft",
+            "ciphertext": "nrtmeaicf",
+            "key": "3 1 2",
+            "hint": "A game about mining and perchance crafting as well"
+        }
+    ],
+    "medium": [],
+    "hard": [],
+    "impossible": []
+}
