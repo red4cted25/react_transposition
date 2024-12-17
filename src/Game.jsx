@@ -38,13 +38,14 @@ function Transposition() {
 
     setCurrentLevelData(selectedLevelData);
     setNum(inputNum);
+  }, [level]);
 
-    // Select a random word from the current level's data
+  useEffect(() => {
     if (currentLevelData.length > 0) {
       const randomWord = currentLevelData[Math.floor(Math.random() * currentLevelData.length)];
       setGameWord(randomWord);
     }
-  }, [level]);
+  }, [currentLevelData]);
 
   const handleInput = (e) => {
     const text = e.target.value;
@@ -67,6 +68,7 @@ function Transposition() {
     e.preventDefault()
     const guess = document.getElementById('guess').value.toLowerCase();
     if (guess === gameWord.word.toLowerCase()) {
+      setGameWord(null);
       return (
         <dialog id='correct'>
           <form method='dialog'>
@@ -76,7 +78,6 @@ function Transposition() {
           </form>
         </dialog>
       )
-      setGameWord(null);
     } else {
       alert("Incorrect!");
     }
