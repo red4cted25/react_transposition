@@ -1,13 +1,424 @@
 {
-    "easy" : [
+    "easy": [
         {
             "word": "minecraft",
             "ciphertext": "nrtmeaicf",
             "key": "3 1 2",
             "hint": "A game about mining and perchance crafting as well"
+        },
+        {
+            "word": "goldXmine",
+            "ciphertext": "dglXmeion",
+            "key": "2 3 1",
+            "hint": "Where precious yellow metal is extracted"
+        },
+        {
+            "word": "digXdeep",
+            "ciphertext": "gdiXpede",
+            "key": "2 1 3",
+            "hint": "What miners must do to find resources"
+        },
+        {
+            "word": "oreXcart",
+            "ciphertext": "reoXtarc",
+            "key": "3 2 1",
+            "hint": "Transport system in mines"
+        },
+        {
+            "word": "pitXmine",
+            "ciphertext": "tpiXneim",
+            "key": "1 3 2",
+            "hint": "Open-air excavation site"
+        },
+        {
+            "word": "coalXbed",
+            "ciphertext": "aocXdel",
+            "key": "2 1 3",
+            "hint": "Layer of fossil fuel deposits"
+        },
+        {
+            "word": "gemXcave",
+            "ciphertext": "megXevac",
+            "key": "2 1 3",
+            "hint": "Natural hollow with precious stones"
+        },
+        {
+            "word": "digXsite",
+            "ciphertext": "gdiXetis",
+            "key": "2 1 3",
+            "hint": "Location of excavation"
+        },
+        {
+            "word": "rockXcut",
+            "ciphertext": "okrXtuc",
+            "key": "3 1 2",
+            "hint": "Method of carving into stone"
+        },
+        {
+            "word": "drillXin",
+            "ciphertext": "ldrXnii",
+            "key": "2 3 1",
+            "hint": "Begin boring into earth"
+        },
+        {
+            "word": "mineXmap",
+            "ciphertext": "nimXpame",
+            "key": "2 3 1",
+            "hint": "Underground navigation guide"
+        },
+        {
+            "word": "shaftXup",
+            "ciphertext": "hsaXput",
+            "key": "1 3 2",
+            "hint": "Vertical passage ascent"
+        },
+        {
+            "word": "pickXaxe",
+            "ciphertext": "ipcXxea",
+            "key": "2 1 3",
+            "hint": "Classic mining tool"
+        },
+        {
+            "word": "airXvent",
+            "ciphertext": "riaXnev",
+            "key": "3 2 1",
+            "hint": "Underground breathing system"
+        },
+        {
+            "word": "oreXseam",
+            "ciphertext": "reoXemas",
+            "key": "2 1 3",
+            "hint": "Mineral deposit line"
+        },
+        {
+            "word": "digXdown",
+            "ciphertext": "gdiXwodn",
+            "key": "2 3 1",
+            "hint": "Excavate deeper"
+        },
+        {
+            "word": "mineXcar",
+            "ciphertext": "nimXrac",
+            "key": "2 1 3",
+            "hint": "Underground transport vehicle"
+        },
+        {
+            "word": "oreXbelt",
+            "ciphertext": "reoXtelb",
+            "key": "2 3 1",
+            "hint": "Mineral transport system"
+        },
+        {
+            "word": "pitXcrew",
+            "ciphertext": "tpiXwerc",
+            "key": "1 3 2",
+            "hint": "Mining operation workers"
+        },
+        {
+            "word": "rawXcoal",
+            "ciphertext": "warXlaoc",
+            "key": "3 1 2",
+            "hint": "Unprocessed fossil fuel"
         }
     ],
-    "medium": [],
-    "hard": [],
-    "impossible": []
+    "medium": [
+        {
+            "word": "underground",
+            "ciphertext": "drgournund",
+            "key": "2 4 1 3",
+            "hint": "Below the surface"
+        },
+        {
+            "word": "mineXworker",
+            "ciphertext": "nimwXreork",
+            "key": "3 1 4 2",
+            "hint": "Person who extracts minerals"
+        },
+        {
+            "word": "goldXmining",
+            "ciphertext": "dgolXgninm",
+            "key": "2 4 3 1",
+            "hint": "Precious metal extraction"
+        },
+        {
+            "word": "drillXshaft",
+            "ciphertext": "lidrXtfahs",
+            "key": "3 1 2 4",
+            "hint": "Vertical boring passage"
+        },
+        {
+            "word": "mineXtunnel",
+            "ciphertext": "nimeXlennut",
+            "key": "4 2 1 3",
+            "hint": "Underground passage"
+        },
+        {
+            "word": "coalXminers",
+            "ciphertext": "laocXsrenim",
+            "key": "1 4 3 2",
+            "hint": "Fossil fuel extractors"
+        },
+        {
+            "word": "excavation",
+            "ciphertext": "vcxaationen",
+            "key": "2 1 4 3",
+            "hint": "Process of digging out"
+        },
+        {
+            "word": "oreXdeposit",
+            "ciphertext": "eroXtisoped",
+            "key": "3 4 1 2",
+            "hint": "Mineral concentration"
+        },
+        {
+            "word": "mineXsafety",
+            "ciphertext": "enimXytefas",
+            "key": "4 1 2 3",
+            "hint": "Underground protection"
+        },
+        {
+            "word": "deepXshaft",
+            "ciphertext": "peedXtfahs",
+            "key": "2 3 4 1",
+            "hint": "Extended vertical tunnel"
+        },
+        {
+            "word": "rockXdrill",
+            "ciphertext": "kcorXllird",
+            "key": "1 4 2 3",
+            "hint": "Stone boring tool"
+        },
+        {
+            "word": "mineXrescue",
+            "ciphertext": "enimXeucser",
+            "key": "4 2 1 3",
+            "hint": "Underground emergency help"
+        },
+        {
+            "word": "ironXmines",
+            "ciphertext": "noriXsenim",
+            "key": "3 1 4 2",
+            "hint": "Metal extraction sites"
+        },
+        {
+            "word": "pitXmining",
+            "ciphertext": "tipXgninim",
+            "key": "2 4 1 3",
+            "hint": "Surface excavation"
+        },
+        {
+            "word": "mineXshaft",
+            "ciphertext": "enimXtfahs",
+            "key": "4 1 3 2",
+            "hint": "Vertical access way"
+        },
+        {
+            "word": "oreXmining",
+            "ciphertext": "eroXgninim",
+            "key": "3 2 4 1",
+            "hint": "Mineral extraction"
+        },
+        {
+            "word": "mineXlight",
+            "ciphertext": "enimXthgil",
+            "key": "4 1 2 3",
+            "hint": "Underground illumination"
+        },
+        {
+            "word": "coalXseams",
+            "ciphertext": "laocXsmaes",
+            "key": "2 3 1 4",
+            "hint": "Fossil fuel layers"
+        },
+        {
+            "word": "drillXdeep",
+            "ciphertext": "lirdXpeed",
+            "key": "3 4 2 1",
+            "hint": "Bore far down"
+        },
+        {
+            "word": "mineXtools",
+            "ciphertext": "enimXsloot",
+            "key": "4 1 3 2",
+            "hint": "Underground equipment"
+        }
+    ],
+    "hard": [
+        {
+            "word": "mineXventilation",
+            "ciphertext": "enimXnoitaltnev",
+            "key": "5 2 1 4 3",
+            "hint": "Underground air system"
+        },
+        {
+            "word": "mineralXdeposits",
+            "ciphertext": "larenimXstisoped",
+            "key": "3 5 2 1 4",
+            "hint": "Natural resource locations"
+        },
+        {
+            "word": "miningXoperation",
+            "ciphertext": "gninimXnoitarepo",
+            "key": "4 1 5 2 3",
+            "hint": "Resource extraction process"
+        },
+        {
+            "word": "undergroundXmine",
+            "ciphertext": "dnuorgrednuXenim",
+            "key": "2 5 3 1 4",
+            "hint": "Subterranean excavation"
+        },
+        {
+            "word": "miningXequipment",
+            "ciphertext": "gninimXtnempiuqe",
+            "key": "5 2 4 1 3",
+            "hint": "Extraction machinery"
+        },
+        {
+            "word": "diamondXmining",
+            "ciphertext": "dnomaidXgninim",
+            "key": "3 1 5 2 4",
+            "hint": "Precious gem extraction"
+        },
+        {
+            "word": "miningXengineer",
+            "ciphertext": "gninimXreenigne",
+            "key": "4 2 5 1 3",
+            "hint": "Extraction specialist"
+        },
+        {
+            "word": "silverXdeposit",
+            "ciphertext": "revlisXtisoped",
+            "key": "2 5 1 4 3",
+            "hint": "Precious metal location"
+        },
+        {
+            "word": "miningXindustry",
+            "ciphertext": "gninimXyrtsudni",
+            "key": "5 1 3 2 4",
+            "hint": "Resource sector"
+        },
+        {
+            "word": "tunnelXsupport",
+            "ciphertext": "lennutXtroppus",
+            "key": "3 5 2 4 1",
+            "hint": "Underground bracing"
+        },
+        {
+            "word": "extractionXsite",
+            "ciphertext": "noitcartxeXetis",
+            "key": "4 1 5 3 2",
+            "hint": "Mining location"
+        },
+        {
+            "word": "miningXplatform",
+            "ciphertext": "gninimXmroftalp",
+            "key": "5 2 1 4 3",
+            "hint": "Extraction structure"
+        },
+        {
+            "word": "copperXmining",
+            "ciphertext": "reppocXgninim",
+            "key": "2 5 3 1 4",
+            "hint": "Metal extraction"
+        },
+        {
+            "word": "miningXresearch",
+            "ciphertext": "gninimXhcraeser",
+            "key": "4 1 5 2 3",
+            "hint": "Extraction studies"
+        },
+        {
+            "word": "surfaceXmining",
+            "ciphertext": "ecafrusXgninim",
+            "key": "3 5 2 4 1",
+            "hint": "Open pit extraction"
+        },
+        {
+            "word": "miningXgeology",
+            "ciphertext": "gninimXygoloeg",
+            "key": "5 1 3 2 4",
+            "hint": "Resource earth science"
+        },
+        {
+            "word": "mineralXrights",
+            "ciphertext": "larenimXsthgir",
+            "key": "2 5 4 1 3",
+            "hint": "Resource ownership"
+        },
+        {
+            "word": "miningXcompany",
+            "ciphertext": "gninimXynapmoc",
+            "key": "4 1 5 3 2",
+            "hint": "Extraction business"
+        },
+        {
+            "word": "miningXlicense",
+            "ciphertext": "gninimXesnecil",
+            "key": "3 5 2 1 4",
+            "hint": "Extraction permit"
+        },
+        {
+            "word": "miningXpermits",
+            "ciphertext": "gninimXstimrep",
+            "key": "5 2 4 1 3",
+            "hint": "Extraction approvals"
+        }
+    ],
+    "impossible": [
+        {
+            "word": "undergroundXmining",
+            "ciphertext": "dnuorgrednuXgninim",
+            "key": "6 2 4 1 3 5",
+            "hint": "Subterranean extraction"
+        },
+        {
+            "word": "mineralXextraction",
+            "ciphertext": "larenimXnoitcartxe",
+            "key": "3 6 1 4 2 5",
+            "hint": "Resource removal process"
+        },
+        {
+            "word": "miningXexploration",
+            "ciphertext": "gninimXnoitarolpxe",
+            "key": "5 2 6 1 4 3",
+            "hint": "Resource investigation"
+        },
+        {
+            "word": "surfaceXexcavation",
+            "ciphertext": "ecafrusXnoitavacxe",
+            "key": "4 1 6 3 2 5",
+            "hint": "Open pit digging"
+        },
+        {
+            "word": "miningXdocumentation",
+            "ciphertext": "gninimXnoitatnemucod",
+            "key": "6 3 1 5 2 4",
+            "hint": "Extraction records"
+        },
+        {
+            "word": "mineralXprospecting",
+            "ciphertext": "larenimXgnitcepsorp",
+            "key": "2 5 6 1 4 3",
+            "hint": "Resource searching"
+        },
+        {
+            "word": "miningXregistration",
+            "ciphertext": "gninimXnoitartsiger",
+            "key": "4 6 2 1 5 3",
+            "hint": "Extraction licensing"
+        },
+        {
+            "word": "drillingXoperations",
+            "ciphertext": "gnillirdXsnoitarepo",
+            "key": "3 1 6 4 2 5",
+            "hint": "Boring activities"
+        },
+        {
+            "word": "miningXregulations",
+            "ciphertext": "gninimXsnoitaluger",
+            "key": "5 2 4 6 1 3",
+            "hint": "Extraction rules"
+        }
+    ]
 }

@@ -1,3 +1,47 @@
-.flex {
-    display: flex; 
+.cipher-box {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.cipher-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 5px;
+}
+
+.cipher-inputs input {
+    width: 10vh;
+    height: 10vh;
+    flex: 0 0 calc(33.333% - 5px); 
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.cipher-numbers {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title {
+    text-align: center;
+    font-size: 36px;
+    margin: -2vh 0 10vh 0;
+}
+
+form > #guess {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 2px #fff solid;
+    cursor: pointer;
+}
+
+form > #guess:focus {
+    border: none;
+    border-bottom: 2px #fff solid;
 }

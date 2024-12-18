@@ -2,11 +2,17 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  padding: 0;
+  font-family: 'Trade Winds', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: white;
+  background-image: url('https://res.cloudinary.com/drnaycy06/image/upload/v1733777101/cZgO6MEsOmetfOKGWiV6--1--l661b_wz5h3q.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 code {
@@ -20,17 +26,27 @@ code {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 50%;
+  width: 100%;
   background-color: rgba(20, 13, 4, 0.9);
   margin: auto;
+  overflow: hidden;
+}
+
+.back {
+  width: 100%;
+  text-align: left;
+  padding-left: 3vw;
+  padding-top: 1.5vh;
+}
+
+.back h1 {
+  margin: 0;
 }
 
 /* Laptop Style */
 @media screen and (min-width: 768px) {
-  body {
-    background-image: url(https://res.cloudinary.com/drnaycy06/image/upload/v1733777101/cZgO6MEsOmetfOKGWiV6--1--l661b_wz5h3q.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  #root {
+    width: 50%;
+    background-color: rgba(20, 13, 4, 0.9);
   }
 }

@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import levels from './levels.json'
+import { GoHome } from "react-icons/go";
 
 function Transposition() {
   const { level } = useParams();
@@ -74,7 +75,7 @@ function Transposition() {
           <form method='dialog'>
             <h2>Congratulations!</h2>
             <p>Your guess is correct!</p>
-            {iteration < 3 ? <button onClick={handleReset}>Play Again</button> : <Link to='/finish'><button className='btn'>Finish</button></Link>}
+            {iteration < 3 ? <button onClick={handleReset}>Play Again</button> : <Link to={'/finish'}><button className='btn'>Finish</button></Link>}
           </form>
         </dialog>
       )
@@ -89,19 +90,21 @@ function Transposition() {
 
 
   return (
-    <div>
-      <h1 className="title">{level}</h1>
+    <>
+      <div className="back">
+        <h1><Link to={'/'}><GoHome /></Link></h1>
+      </div>
+      <h1 className="title">{level.toUpperCase()}</h1>
       {/* Timer */}
       <div>
         {/* Progress Bar */}
       </div>
       {/* Cipher Display */}
-      <div>
+      <div className='cipher-box'>
         <div className='cipher-numbers'>
-          <p>1</p>
-          <p>2</p>
-          <p>3</p>
-          <p>4</p>
+        {Array.from({ length: num }, (_, i) => i + 1).map((i) => (
+              <p key={i} >{i}</p>
+            ))}
         </div>
         <div className="cipher-inputs">
           {Array.from({ length: num*num }, (_, i) => i + 1).map((i) => (
@@ -111,18 +114,21 @@ function Transposition() {
       </div>
       {/* Cipher Info */}
       <div className="info">
-        <p>Word: {gameWord.word}</p>
         <p>Ciphertext: {gameWord.ciphertext}</p>
         <p>Key: {gameWord.key}</p>
       </div>
       {/* Check Button */}
       <div>
         <form>
-          <input type="text" name="guess" id="guess" placeholder='Input your guess...'/>
+          <div className="input-container">
+            <input type="text" name="guess" id="guess" placeholder='Input your guess...'/>
+            <div className="underline"></div>
+          </div>
+          
           <button type="submit" onClick={handleSubmit}>Check</button>
         </form>
       </div>
-    </div>
+    </>
   );
 }
 

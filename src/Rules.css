@@ -1,0 +1,12 @@
+.story {
+    margin: 0 auto;
+}
+.story span {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 36px;
+    margin: 0 0 10vh 0;
+}
