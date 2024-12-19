@@ -43,6 +43,40 @@ code {
   margin: 0;
 }
 
+.game-title {
+  text-align: right;
+}
+
+.game-title > h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.game-title > p {
+  font-size: 12px;
+  margin: -2vh 0 0 0;
+}
+
+main {
+  text-align: center;
+  margin: 5vh auto;
+}
+
+.btn {
+  width: 80%;
+  background-color: #6D6D6D;
+  border-radius: 20px;
+  text-align: center;
+  padding: 3vh 5vw;
+  margin: 0.5vh 0;
+  color: white;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.btn.rules {
+  margin-top: 10vh;
+}
 /* Laptop Style */
 @media screen and (min-width: 768px) {
   #root {

@@ -9,32 +9,33 @@ function Transposition() {
   const [num, setNum] = useState(3);
   const [gameWord, setGameWord] = useState(null);
   const [iteration, setIteration] = useState(1);
+  const [hint, setHint] = useState(3);
 
   useEffect(() => {
     // Determine the current level's data and number of inputs
     let selectedLevelData = [];
-    let inputNum = 3;
+    let inputNum;
     
     switch(level) {
       case 'easy':
         selectedLevelData = levels.easy;
-        inputNum = 3;
+        inputNum = 2;
         break;
       case 'medium':
         selectedLevelData = levels.medium || [];
-        inputNum = 4;
+        inputNum = 3;
         break;
       case 'hard':
         selectedLevelData = levels.hard || [];
-        inputNum = 5;
+        inputNum = 4;
         break;
       case 'impossible':
         selectedLevelData = levels.impossible || [];
-        inputNum = 6;
+        inputNum = 5;
         break;
       default:
         selectedLevelData = levels.easy;
-        inputNum = 3;
+        inputNum = 2;
     }
 
     setCurrentLevelData(selectedLevelData);
@@ -63,6 +64,12 @@ function Transposition() {
     setIteration((prev) => prev + 1);
     setGameWord(null);
     document.getElementById('guess').value = '';
+  }
+
+  const handleHint = () => {
+    // No current functionality
+    // Add functionality for hinting at the right word
+    // Maybw putting in a letter or two?
   }
 
   const handleSubmit = (e) => {
@@ -106,7 +113,7 @@ function Transposition() {
               <p key={i} >{i}</p>
             ))}
         </div>
-        <div className="cipher-inputs">
+        <div className={`cipher-inputs ${level}`}>
           {Array.from({ length: num*num }, (_, i) => i + 1).map((i) => (
               <input key={i} type="text" maxLength={1} onChange={handleInput} />
             ))}
@@ -125,7 +132,8 @@ function Transposition() {
             <div className="underline"></div>
           </div>
           
-          <button type="submit" onClick={handleSubmit}>Check</button>
+          <button type="submit" onClick={handleSubmit} id='check-btn'>Check</button>
+          <button onClick={handleHint} id='hint-btn'>Hint</button>
         </form>
       </div>
     </>

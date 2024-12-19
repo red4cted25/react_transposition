@@ -10,10 +10,31 @@
     gap: 5px;
 }
 
-.cipher-inputs input {
-    width: 10vh;
-    height: 10vh;
+.easy input {
+    width: 15vh;
+    height: 15vh;
+    flex: 0 0 calc(50% - 5px); 
+}
+
+.medium input {
+    width: 5vh;
+    height: 5vh;
     flex: 0 0 calc(33.333% - 5px); 
+}
+
+.hard input {
+    width: 2.5vh;
+    height: 2.5vh;
+    size: 2.5vh;
+}
+
+.impossible input {
+    width: 1vh;
+    height: 1vh;
+    size: 1vh;
+}
+
+.cipher-inputs input {
     text-align: center;
     padding: 10px;
     box-sizing: border-box;
@@ -30,7 +51,11 @@
     margin: -2vh 0 10vh 0;
 }
 
-form > #guess {
+.info {
+    text-align: center;
+}
+
+div > #guess {
     margin-top: 10px;
     width: 100%;
     padding: 10px;
@@ -38,10 +63,24 @@ form > #guess {
     background-color: rgba(255, 255, 255, 0);
     border: none;
     border-bottom: 2px #fff solid;
+    outline-style: none;
+    box-shadow: none;
     cursor: pointer;
+    color: #fff;
 }
 
-form > #guess:focus {
+div > #guess:focus {
     border: none;
     border-bottom: 2px #fff solid;
 }
+
+
+
+.back > h1 > a {
+    color: #fff;
+}
+
+.back > h1 > a:active {
+    color: #fff;
+}
+

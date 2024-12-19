@@ -1,26 +1,26 @@
 {
     "easy": [
         {
-            "word": "minecraft",
-            "ciphertext": "nrtmeaicf",
-            "key": "3 1 2",
-            "hint": "A game about mining and perchance crafting as well"
+            "word": "mine",
+            "ciphertext": "iemn",
+            "key": "2 1",
+            "hint": "Another word for dig"
         },
         {
-            "word": "goldXmine",
-            "ciphertext": "dglXmeion",
-            "key": "2 3 1",
-            "hint": "Where precious yellow metal is extracted"
+            "word": "gold",
+            "ciphertext": "glod",
+            "key": "1 2",
+            "hint": "A precious yellow metal"
         },
         {
-            "word": "digXdeep",
-            "ciphertext": "gdiXpede",
-            "key": "2 1 3",
-            "hint": "What miners must do to find resources"
+            "word": "deep",
+            "ciphertext": "epde",
+            "key": "2 1",
+            "hint": "What miners must go to find resources"
         },
         {
-            "word": "oreXcart",
-            "ciphertext": "reoXtarc",
+            "word": "ores",
+            "ciphertext": "rsoe",
             "key": "3 2 1",
             "hint": "Transport system in mines"
         },
